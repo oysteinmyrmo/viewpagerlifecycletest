@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- See http://developer.android.com/intl/zh-CN/guide/topics/ui/settings.html -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="preferences_audio"
+        android:title="Audio" >
+        <CheckBoxPreference
+            android:key="audio_on_off"
+            android:title="Use audio"
+            android:summary="Whether to use audio or not."
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
